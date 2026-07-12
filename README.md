@@ -45,7 +45,9 @@ Analytical reports and visualizations are generated.
 Results are displayed through an interactive Streamlit dashboard.
 
 Excel Dataset
+
       │
+      
       ▼
 Pandas Data Processing
       │
@@ -60,3 +62,21 @@ Streamlit Dashboard
       │
       ▼
 Reports & Insights
+
+
+Create a Virtual Environment (Optional)
+python -m venv venv
+Activate Virtual Environment
+Windows
+venv\Scripts\activate
+Linux/Mac
+source venv/bin/activate
+Install Required Packages
+pip install pandas
+pip install openpyxl
+pip install matplotlib
+pip install streamlit
+
+Or install all dependencies at once:
+
+pip install -r requirements.txt
